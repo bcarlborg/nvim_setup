@@ -1,0 +1,4 @@
+{
+  "eslint.enable": true,
+  "eslint.codeAction.disableRuleComment":{"enable":true, "location":"sameLine"},
+}
