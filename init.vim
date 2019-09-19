@@ -109,4 +109,6 @@ map <C-J> :bp<bar>sp<bar>bn<bar>bd<CR>
 
 " clear the highlighted search terms easily
 command C let @/=""
+
 " userful stuff H M L to move cursor z[return], z., z- for top middle bottom
+" can also use gv to reselect a visual section that you just made
