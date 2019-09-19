@@ -107,5 +107,6 @@ map <C-L> :bnext<CR>
 map <C-H> :bprev<CR>
 map <C-J> :bp<bar>sp<bar>bn<bar>bd<CR>
 
-
+" clear the highlighted search terms easily
+command C let @/=""
 " userful stuff H M L to move cursor z[return], z., z- for top middle bottom
