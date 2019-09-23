@@ -108,7 +108,11 @@ map <C-H> :bprev<CR>
 map <C-J> :bp<bar>sp<bar>bn<bar>bd<CR>
 
 " clear the highlighted search terms easily
+" used as [normal mode] :C
 command C let @/=""
 
 " userful stuff H M L to move cursor z[return], z., z- for top middle bottom
 " can also use gv to reselect a visual section that you just made
+" can find forward in a line with f and backward in a line with F
+" the file preview on the right of the file is called a mini map
+" severin-lemaignan/vim-minimap might be a good plug for it
